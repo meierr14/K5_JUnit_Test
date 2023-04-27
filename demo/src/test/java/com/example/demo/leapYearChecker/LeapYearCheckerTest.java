@@ -7,10 +7,17 @@ public class LeapYearCheckerTest {
     
 
     @Test
-    public void fizzBuzzConverter1() {
+    public void leapYearChecker1() {
 
         LeapYearChecker leapYearChecker = new LeapYearChecker();
         Assertions.assertEquals("1994", leapYearChecker.check(1994));
+
+    }
+
+    public void leapYearChecker() {
+
+        LeapYearChecker leapYearChecker = new LeapYearChecker();
+        Assertions.assertEquals("2000", leapYearChecker.check(2000));
 
     }
     
