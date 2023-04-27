@@ -27,8 +27,16 @@ public class LeapYearCheckerTest {
     public void leapYearChecker3() {
 
         LeapYearChecker leapYearChecker = new LeapYearChecker();
-        Assertions.assertEquals("Leap year", leapYearChecker.check(4));
+        Assertions.assertEquals("Leap Year", leapYearChecker.check(4));
 
     }
     
+    @Test
+    public void leapYearChecker4(){
+
+        LeapYearChecker leapYearChecker = new LeapYearChecker();
+        Assertions.assertEquals("Leap Year", leapYearChecker.check(20));
+        Assertions.assertEquals("Leap Year", leapYearChecker.check(60));
+        Assertions.assertEquals("Leap Year", leapYearChecker.check(124));
+    }
 }
