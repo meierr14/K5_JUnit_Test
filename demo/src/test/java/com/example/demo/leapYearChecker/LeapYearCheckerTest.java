@@ -74,4 +74,11 @@ public class LeapYearCheckerTest {
         Assertions.assertEquals("No valid year!", leapYearChecker.check(-100));
         Assertions.assertEquals("No valid year!", leapYearChecker.check(-2567));
     }
+
+    @Test
+    public void leapYearChecker9(){
+
+        LeapYearChecker leapYearChecker = new LeapYearChecker();
+        Assertions.assertEquals("No valid year!", leapYearChecker.check(0));
+    }
 }
