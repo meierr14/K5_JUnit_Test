@@ -4,8 +4,8 @@ public class LeapYearChecker {
     
     public String check(int i){
         if (i % 4 == 0){
-            return "Leap Year";
+            return "Leap year";
         }
-        return "no leap year";
+        return "No leap year";
     }
 }
